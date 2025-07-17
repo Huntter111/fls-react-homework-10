@@ -1,0 +1,125 @@
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 1rem;
+	/* text-align: center; */
+}
+.button-reducer {
+	padding: 0.6em 1.2em;
+	font-size: 16px;
+	font-weight: 500;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.button-reducer:active {
+	transform: scale(0.98);
+}
+
+.button-reducer:disabled {
+	background-color: #cccccc;
+	cursor: not-allowed;
+}
+.button-link {
+	padding: 5px 10px;
+}
+.menu-link {
+	font-weight: 600;
+	border-bottom: 2px solid transparent;
+}
+.active-link {
+	color: goldenrod;
+	border-bottom: 2px solid goldenrod;
+}
+.travel-active-link {
+	font-weight: 600;
+	color: rgb(18, 173, 121);
+	border-bottom: 2px solid rgb(18, 173, 121);
+}
+.theme-link-light {
+	color: #1a1a1a;
+	border-bottom: 2px solid blue;
+}
+.theme-link-dark {
+	color: #fff;
+	border-bottom: 2px solid blue;
+}
+.theme-active-link {
+	color: blue;
+	border-bottom: 2px solid blue;
+}
+.link {
+	color: rgb(128, 75, 212);
+}
+.body-dark {
+	margin-top: 20px;
+	padding: 15px;
+	background-color: #1f1f1f;
+	color: #f1f1f1;
+	transition: background-color 0.3s, color 0.3s;
+}
+.body-light {
+	margin-top: 20px;
+	padding: 15px;
+	background-color: #ffffff;
+	color: #1a1a1a;
+	transition: background-color 0.3s, color 0.3s;
+}
+.panel-dark {
+	padding: 1.5rem;
+	border-radius: 12px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+	border: 1px solid #333;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.panel-dark:hover {
+	background-color: #2a2a2a;
+}
+
+.panel-light {
+	padding: 1.5rem;
+	border-radius: 12px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	border: 1px solid #ddd;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.panel-light:hover {
+	background-color: #f9f9f9;
+}
+.button-dark {
+	background-color: #2c2c2c;
+	color: #ffffff;
+	padding: 0.6rem 1.2rem;
+	border: 1px solid #444;
+	border-radius: 8px;
+	cursor: pointer;
+	font-weight: 500;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+	transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.button-dark:hover {
+	background-color: #3a3a3a;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+}
+
+.button-light {
+	background-color: #f2f2f2;
+	color: #1a1a1a;
+	padding: 0.6rem 1.2rem;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	cursor: pointer;
+	font-weight: 500;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+	transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.button-light:hover {
+	background-color: #e6e6e6;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
